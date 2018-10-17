@@ -14,10 +14,18 @@ Clone the repo and run `npm i`
 
 ## Reproduce
 
+#### `npm run get AllGames`
+
+Download game names into paginated JSON files
+
+#### `npm run combineAllGames`
+
+Combine games into single JSON file
+
 #### `npm run getGameRuns`
 
-Download runs from Super Mario Bros., Mike Tyson Punch Out, Pokemon Red/Blue, Donkey Kong 64, Half-Life 2, and The Legend of Zelda as separate JSON files
+Download runs from Super Mario Bros., Mike Tyson Punch Out, Pokemon Red/Blue, Donkey Kong 64, Half-Life 2, and The Legend of Zelda as separate paginated JSON files
 
-#### `npm run getAllRuns`
+#### `npm run combineGameRuns`
 
-Download runs from all games
+Combine game runs into a single JSON file

@@ -28,4 +28,4 @@ Download runs from Super Mario Bros., Mike Tyson Punch Out, Pokemon Red/Blue, Do
 
 #### `npm run combineGameRuns`
 
-Combine game runs into a single JSON file
+Combine game runs into a single csv file (TO-DO: currently only grabbing first values)

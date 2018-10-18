@@ -23,6 +23,7 @@ function download(gameID, offset, cb) {
 		}
 		else {
 			runData = JSON.parse(body)
+			console.log(runData.data)
 			fs.writeFileSync(`output/runs_${gameID}_${offset}.json`, body)
 		}
 		cb();

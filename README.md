@@ -40,4 +40,4 @@ Combine categories into single csv file
 
 #### `npm run addCategories`
 
-Adds category names with lookups to run data (TO-DO: fix lookup)
+Adds category names with lookups to run data 

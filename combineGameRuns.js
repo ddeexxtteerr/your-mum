@@ -1,13 +1,14 @@
 const d3 = require('d3');
 const fs = require('fs');
+const _ = require("lodash");
 
 const lookup = {
-	om1m3625: 'SuperMarioBros',
-	pd05xl1e: 'TysonPunchOut',
-	'369p0g1l': 'LegendOfZelda',
-	'46w22l6r': 'Pokemon',
-	'9d385g1l': 'DonkeyKong64',
-	ok6q991g: 'HalfLife2'
+	om1m3625: "Super Mario Bros.",
+	pd05xl1e: "Mike Tyson's Punch-Out!!",
+	'369p0g1l': "The Legend of Zelda",
+	'46w22l6r': "Pokémon Red/Blue",
+	'9d385g1l': "Donkey Kong 64",
+	ok6q991g: "Half-Life 2"
 };
 
 const runFiles = fs.readdirSync('output').filter(d => d.includes('runs'));
@@ -19,6 +20,7 @@ const runData = runFiles.map(filename => {
 	return parsed.data;
 });
 
+//Creates full data
 const runAll = [].concat(...runData).map(d => ({
 	id: d.id,
 	weblink: d.weblink,
@@ -36,3 +38,12 @@ const runAll = [].concat(...runData).map(d => ({
 
 const csvData = d3.csvFormat(runAll);
 fs.writeFileSync('output/allRuns.csv', csvData);
+
+//Creates seperate file for category lookup
+const categoriesAll = [].concat(...runData).map(d => ({
+	category: d.category,
+}));
+
+const uniqCategories = (_.uniqBy(categoriesAll, 'category'))
+const csvCategories = d3.csvFormat(uniqCategories);
+fs.writeFileSync('output/categories.csv', csvCategories);

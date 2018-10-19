@@ -14,7 +14,7 @@ Clone the repo and run `npm i`
 
 ## Reproduce
 
-#### `npm run get AllGames`
+#### `npm run getAllGames`
 
 Download game names into paginated JSON files
 
@@ -28,4 +28,16 @@ Download runs from Super Mario Bros., Mike Tyson Punch Out, Pokemon Red/Blue, Do
 
 #### `npm run combineGameRuns`
 
-Combine game runs into a single csv file (TO-DO: currently only grabbing first values)
+Combine game runs into a single csv file. Creates separate category csv file for lookup.
+
+#### `npm run getCategories`
+
+Download category data into paginated JSON files
+
+#### `npm run combineCategories`
+
+Combine categories into single csv file
+
+#### `npm run addCategories`
+
+Adds category names with lookups to run data (TO-DO: fix lookup)

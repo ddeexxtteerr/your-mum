@@ -61,8 +61,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "getAllGames": "node getAllGames.js",
     "combineAllGames": "node combineAllGames.js",
+    "getCategories": "node getCategories.js",
+    "combineCategories": "node combineCategories.js",
     "getGameRuns": "node getGameRuns.js",
-    "combineGameRuns": "node combineGameRuns.js"
+    "combineGameRuns": "node combineGameRuns.js",
+    "addCategories": "node addCategories.js"
   },
   "repository": {
     "type": "git",

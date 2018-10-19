@@ -4,11 +4,13 @@ const fs = require('fs');
 const categoryLookup = d3.csvParse(fs.readFileSync(`output/allcategories.csv`, 'utf-8'));
 const runData = d3.csvParse(fs.readFileSync(`output/allRuns.csv`, 'utf-8'));
 
-console.log(categoryLookup)
+const addedCategories = runData.map(d => {
+	const match = categoryLookup.find(c => c.id === d.category)
+	return {
+		...d,
+		category_name: match ? match.name : null
+	}
+})
 
-const addedCategories = runData.map(d => ({
-	...d,
-	category_name: categoryLookup[d.category],
-}));
-
-console.log(addedCategories)
+const csvData = d3.csvFormat(addedCategories);
+fs.writeFileSync('output/allRuns_wCategories.csv', csvData);

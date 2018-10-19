@@ -1,49 +1,71 @@
-id,weblink,game,category,comment,date
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+id,weblink,game,category,comment,date,time,player,status,system,emulated
+9me253m7,https://www.speedrun.com/The_Legend_of_Zelda/run/9me253m7,369p0g1l,wdmw952q,,2014-09-17,2142,qjnzdwjm,verified,jm95z9ol,false
+yvgd8doy,https://www.speedrun.com/The_Legend_of_Zelda/run/yvgd8doy,369p0g1l,wdmw952q,Blue ring route.,2018-04-27,2648,1xy031mj,verified,jm95z9ol,true
+y2q1845y,https://www.speedrun.com/The_Legend_of_Zelda/run/y2q1845y,369p0g1l,mke069d6,,2018-07-19,5707,pj0og19j,verified,jm95z9ol,true
+pm33g66m,https://www.speedrun.com/The_Legend_of_Zelda/run/pm33g66m,369p0g1l,wdmw952q,,2016-02-10,2309,y8dwze9j,verified,jm95z9ol,true
+dy44qd3y,https://www.speedrun.com/The_Legend_of_Zelda/run/dy44qd3y,369p0g1l,wdmw952q,"Decent run throughout.  Did 5 before 2.  Probably my best 9 ever, but improvable.",2017-02-02,1862,18qrg97j,verified,jm95z9ol,false
+mk4ee21y,https://www.speedrun.com/The_Legend_of_Zelda/run/mk4ee21y,369p0g1l,wdmw952q,,2017-09-28,2027,zx7oyvj7,verified,jm95z9ol,false
+y8qp4r5y,https://www.speedrun.com/The_Legend_of_Zelda/run/y8qp4r5y,369p0g1l,wdmw952q,"Not sub 40, but better than was. Sorry for the audio fails. ",2018-02-04,2433,0jm3gzn8,verified,jm95z9ol,false
+1zxepqmx,https://www.speedrun.com/pkmnredblue/run/1zxepqmx,46w22l6r,wk6oork1,,2014-03-08,6900,v810m3xp,rejected,,true
+y4511nkm,https://www.speedrun.com/pkmnredblue/run/y4511nkm,46w22l6r,wk6oork1,"RETIMED: Timer was paused for ~30 seconds at the beginning of Route 3.
+
+20 minutes shaved off my last run, not too shabby! Hoping to sub 2 hours eventually.",2017-06-03,7700,98r76pwj,verified,3167d6q2,true
+m3dx544z,https://www.speedrun.com/pkmnredblue/run/m3dx544z,46w22l6r,jdr77526,Really happy with this run. now to push into the top 10 using bulba!!!!,2017-11-07,786,68w0rrlj,verified,3167d6q2,true
+z11d69rz,https://www.speedrun.com/pkmnredblue/run/z11d69rz,46w22l6r,wk6oork1,,2018-06-01,6444,e8enm680,verified,3167d6q2,true
+oy25pv9y,https://www.speedrun.com/pkmnredblue/run/oy25pv9y,46w22l6r,wk6oork1,"The livesplit timer is inaccurate, this was a problem Dailyleaf was having a few weeks ago.",2015-05-25,6900,0jmvrzj1,rejected,,true
+1zx7pjey,https://www.speedrun.com/pkmnredblue/run/1zx7pjey,46w22l6r,jdr77526,,2016-03-04,1139,pj0723xw,verified,3167d6q2,true
+pzglg3jm,https://www.speedrun.com/pkmnredblue/run/pzglg3jm,46w22l6r,wk6oork1,,2016-08-16,7028,v48ggp8p,verified,,true
+8y8l5owm,https://www.speedrun.com/pkmnredblue/run/8y8l5owm,46w22l6r,jdr77526,"still awful at menu navigation, had a terrible viridian forest, and messed up ditto, but still made a PB im satisfied with",2017-01-30,934,18qovpqj,verified,3167d6q2,true
+pzgnwnvy,https://www.speedrun.com/dk64/run/pzgnwnvy,9d385g1l,n2y7472o,"I would have gotten sub 45 if not for the major mistakes (Mad Jack fall, Aztec Early and Cranky Clip). I'm still trying to get used to the Free Camera as opposed to the Follow Camera.",2014-01-17,2886,v8lp9q7j,verified,w89rwelk,false
+8y85kldy,https://www.speedrun.com/dk64/run/8y85kldy,9d385g1l,n2y7472o,wow,2017-03-22,1791,qj20dl6x,rejected,w89rwelk,false
+yl974xky,https://www.speedrun.com/dk64/run/yl974xky,9d385g1l,n2y7472o,Run starts at 33:17,2017-10-15,2812,qj21zgp8,verified,w89rwelk,false
+yvgk6jey,https://www.speedrun.com/dk64/run/yvgk6jey,9d385g1l,7kj153k3,,2018-02-03,49144,dx3dw528,verified,w89rwelk,false
+8y81x01z,https://www.speedrun.com/dk64/run/8y81x01z,9d385g1l,7kj153k3,Pretty nice run. Missed Diddy's medal in Aztec and had to backtrack. Galleon and Castle were dreadful,2015-04-04,26229,5j52egjv,verified,w89rwelk,false
+emk8r23m,https://www.speedrun.com/dk64/run/emk8r23m,9d385g1l,q25o0rwk,First run of the new route,2015-07-30,3937,qjodk3x6,verified,w89rwelk,false
+6yjdqggy,https://www.speedrun.com/dk64/run/6yjdqggy,9d385g1l,n2y7472o,"Will add video later, decent pb",2016-04-09,2897,y8d4vg86,verified,w89rwelk,false
+pzgl9gdm,https://www.speedrun.com/dk64/run/pzgl9gdm,9d385g1l,n2y7472o,N I G H T M A R E,2016-09-01,2880,v8l4ymvj,verified,w89rwelk,false
+8y818dz1,https://www.speedrun.com/hl2/run/8y818dz1,ok6q991g,r02qjydy,,2013-08-14,7824,zx727q87,verified,8gej2n93,false
+0y625wpz,https://www.speedrun.com/hl2/run/0y625wpz,ok6q991g,l824pw25,can probably have another 5-10 minutes shaved off if done well ,2016-06-05,4635.01,zxzkdrxq,verified,8gej2n93,false
+zn8xw27z,https://www.speedrun.com/hl2/run/zn8xw27z,ok6q991g,l824pw25,"Much much happier with the way this run turned out. I can't believe barney died and caused me to lose so much time, as well as accidentally picking up the grenades over and over in the same place. Still a lot to improve on but I'm getting there :D",2018-01-24,4063,zxznqw0x,verified,8gej2n93,false
+wzpw1ryq,https://www.speedrun.com/smb1/run/wzpw1ryq,om1m3625,w20p0zkn,,2014-10-28,303.73,qjnzw4jm,verified,jm95z9ol,false
+1zx1opky,https://www.speedrun.com/smb1/run/1zx1opky,om1m3625,w20p0zkn,Just for fun. Everdrive,2017-02-23,352,pj0nkkm8,verified,jm95z9ol,false
+zpqnopry,https://www.speedrun.com/smb1/run/zpqnopry,om1m3625,w20p0zkn,Guiz vs Super Mario,2017-04-13,464,48g0gm1x,verified,jm95z9ol,false
+yw1p2o0z,https://www.speedrun.com/smb1/run/yw1p2o0z,om1m3625,w20p0zkn,"My first time beating SMB1 ever. My split times were messed up, however the overall time although I stopped it late is at least accurate.",2017-05-28,521,qjnp2y48,verified,jm95z9ol,true
+y8q2oo1y,https://www.speedrun.com/smb1/run/y8q2oo1y,om1m3625,w20p0zkn,,2017-07-04,371,98rp2odj,verified,jm95z9ol,true
+y67dl60m,https://www.speedrun.com/smb1/run/y67dl60m,om1m3625,mke8vjk6,antoher pb ima take a break tomorrow becaus school im tired from grinding too hard so ima jus not speedrun tomorrow. pls verify,2017-08-15,310.813,zx7zvyv8,rejected,83exk6l5,true
+wzp83e8y,https://www.speedrun.com/smb1/run/wzp83e8y,om1m3625,wdmz042q,Emu: Nestopia 0.0.0.1 v1.40 (FCEUX color pallete),2015-11-29,1331,pj07d3xw,verified,mr6k409z,true
+yw1jojpz,https://www.speedrun.com/smb1/run/yw1jojpz,om1m3625,w20p0zkn,"Emulator: BizHawk 2.2
+
+8-2 and 8-4 water section cost me overall PB????
+
+@Mods: Replaced the videos with my local recording which doesn't have any lag.",2017-10-10,317,qxkow598,verified,3167d6q2,true
+ydq1o60m,https://www.speedrun.com/smb1/run/ydq1o60m,om1m3625,w20p0zkn,C o o l y,2017-11-18,325,zx7g6o0x,verified,jm95z9ol,false
+mek0j29m,https://www.speedrun.com/smb1/run/mek0j29m,om1m3625,wdmz042q,,2018-01-03,1540,0jm36qe8,verified,jm95z9ol,false
+zq6qjd9y,https://www.speedrun.com/smb1/run/zq6qjd9y,om1m3625,wdmz042q,,2018-01-31,1190,98r5r13x,verified,jm95z9ol,false
+yo4ewp0m,https://www.speedrun.com/smb1/run/yo4ewp0m,om1m3625,mke8vjk6,,2018-03-03,322,kjpzo50x,verified,83exk6l5,false
+z5o4vgny,https://www.speedrun.com/smb1/run/z5o4vgny,om1m3625,w20p0zkn,Pretty clean for me...room for improvement...always fun!,2018-04-08,413,5j5vw068,verified,jm95z9ol,true
+yvj40r4y,https://www.speedrun.com/smb1/run/yvj40r4y,om1m3625,xd1em828,"I tried submitting this already, but ig something happened so it never got verified or rejected i used FCEUX as always",2018-05-30,179,zx7gv4qx,verified,jm95z9ol,true
+mk934r5z,https://www.speedrun.com/smb1/run/mk934r5z,om1m3625,xd1em828,yay i used Bizhawk (but i just want to say so this dosnt get rej. agan i dont have a clue have to make a tas so i would never use it in a run.) i found the other bit of the reset so i have cliped it on.,2018-07-23,205,kjp9r6y8,verified,mr6k409z,true
+mk9gokvz,https://www.speedrun.com/smb1/run/mk9gokvz,om1m3625,w20p0zkn,"https://www.twitch.tv/videos/309494247
+Peercast, nicoLive rule: 5:15.700",2018-09-13,301.304,qxkv6rmj,verified,jm95z9ol,false
+8yvlj6ez,https://www.speedrun.com/smb1/run/8yvlj6ez,om1m3625,wdmz042q,"
+pretty disappointing pb but oh well. lost fire in 4-4 making w5... interesting lol. and then had a very nervy w8...will keep pushing for a run im actually happy with.
+
+note: i split late (pretty sure its a mid 19:40); played on powerpak.",2016-08-10,1180,v8l0o978,verified,jm95z9ol,false
+2yw2pkpy,https://www.speedrun.com/smb1/run/2yw2pkpy,om1m3625,w20p0zkn,"MARIO BROS (NES)
+PB = 5:23
+SPLITS:
+1-1 = 0:30 (0:30)
+1-2 = 0:32 (1:02)
+4-1 = 0:38 (1:40)
+4-2 = 0:33 (2:13)
+8-1 = 0:55 (3:08)
+8-2 = 0:41 (3:49)
+8-3 = 0:39 (4:28)
+8-4 = 0:55 (5:23)",2016-11-12,323,zx7mo7vx,verified,jm95z9ol,true
+0zn61rly,https://www.speedrun.com/smb1/run/0zn61rly,om1m3625,w20p0zkn,"Everything I was shooting for minus the 8-4 wall jump. 
+FCEUX 2.2.3 with lua script timer
+",2017-01-15,304,kjpor458,verified,jm95z9ol,true
+9mro30gm,https://www.speedrun.com/mtpo/run/9mro30gm,pd05xl1e,5dw9qn2g,"Mike ""Switchback"" Tyson",2016-05-29,1074.06,18qrry7j,verified,jm95z9ol,true
+mrq4x38y,https://www.speedrun.com/mtpo/run/mrq4x38y,pd05xl1e,5dw9qn2g,Meh run. Hopefully can surpass it soon,2017-08-05,1239.84,pj03m1mj,verified,jm95z9ol,false
+z039vq4z,https://www.speedrun.com/mtpo/run/z039vq4z,pd05xl1e,vdo93vdp,1st time I have landed all 3 misdirects :o,2018-08-19,78,dx3z2kjl,verified,jm95z9ol,false

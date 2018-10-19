@@ -1,6 +1,15 @@
 const d3 = require('d3');
 const fs = require('fs');
 
+const lookup = {
+	om1m3625: 'SuperMarioBros',
+	pd05xl1e: 'TysonPunchOut',
+	'369p0g1l': 'LegendOfZelda',
+	'46w22l6r': 'Pokemon',
+	'9d385g1l': 'DonkeyKong64',
+	ok6q991g: 'HalfLife2'
+};
+
 const runFiles = fs.readdirSync('output').filter(d => d.includes('runs'));
 
 const runData = runFiles.map(filename => {
@@ -14,6 +23,7 @@ const runAll = [].concat(...runData).map(d => ({
 	id: d.id,
 	weblink: d.weblink,
 	game: d.game,
+	name: lookup[d.game],
 	category: d.category,
 	comment: d.comment,
 	date: d.date,
@@ -25,4 +35,4 @@ const runAll = [].concat(...runData).map(d => ({
 }));
 
 const csvData = d3.csvFormat(runAll);
-fs.writeFileSync('output/runAll.csv', csvData);
+fs.writeFileSync('output/allRuns.csv', csvData);

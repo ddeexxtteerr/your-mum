@@ -33,8 +33,15 @@ const runAll = [].concat(...runData).map(d => ({
 	player: d.players[0].id,
 	status: d.status.status,
 	system: d.system.platform,
-	emulated: d.system.emulated
+	emulated: d.system.emulated,
+	splits: splits(d.splits)
 }));
+
+function splits(input) {
+	if (input !== null) {
+		return input.uri
+	}
+}
 
 const csvData = d3.csvFormat(runAll);
 fs.writeFileSync('output/allRuns.csv', csvData);

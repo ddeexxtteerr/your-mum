@@ -1,4 +1,5 @@
 const request = require("request");
+const d3 = require("d3");
 const fs = require("fs");
 
 const baseURL = `https://www.speedrun.com/api/v1/categories/`

@@ -28,7 +28,7 @@ Download runs from Super Mario Bros., Mike Tyson Punch Out, Pokemon Red/Blue, Do
 
 #### `npm run combineGameRuns`
 
-Combine game runs into a single csv file. Creates separate category csv file for lookup.
+Combine game runs into a single csv file. Creates separate category csv file for lookups.
 
 #### `npm run getCategories`
 
@@ -38,6 +38,14 @@ Download category data into paginated JSON files
 
 Combine categories into single csv file
 
-#### `npm run addCategories`
+#### `npm run getUsers`
 
-Adds category names with lookups to run data 
+Download user data into paginated JSON files
+
+#### `npm run combineUsers`
+
+Combine users into single csv file
+
+#### `npm run addData`
+
+Adds category and player names with lookups to run data 

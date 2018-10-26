@@ -67,7 +67,8 @@
     "combineCategories": "node combineCategories.js",
     "getUsers": "node getUsers.js",
     "combineUsers": "node combineUsers.js",
-    "addData": "node addData.js"
+    "addData": "node addData.js",
+    "mattAnalysis": "node mattAnalysis.js"
   },
   "repository": {
     "type": "git",

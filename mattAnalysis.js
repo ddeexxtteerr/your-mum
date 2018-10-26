@@ -1,9 +1,6 @@
 const d3 = require("d3");
 const fs = require("fs");
 
-const runs = d3.csvParse(fs.readFileSync(`output/runArray.csv`, 'utf-8'));
-
-
 const runs = d3.csvParse(fs.readFileSync(`output/allRuns_wAdds.csv`, 'utf-8'));
 var parseTime = d3.timeParse("%Y-%m-%d");
 
@@ -15,7 +12,7 @@ var gameNest = d3.nest()
     return d["category_name"]
   })
   .sortValues(function(a,b){
-    return parseTime(a) - parseTime(b);
+    return parseTime(a["date"]) - parseTime(b["date"]);
   })
   .entries(runs);
 
@@ -33,10 +30,15 @@ for (var game in gameNest){
       var worldRecord = false;
       var runTime = gameNest[game].values[category].values[run]["time"];
       gameNest[game].values[category].values[run]["world_record"] = false;
+
       if(+runTime < +categoryGameRecord){
         worldRecord = true;
         categoryGameRecord = runTime;
         gameNest[game].values[category].values[run]["world_record"] = true;
+      }
+
+      if(gameNest[game].key == "The Legend of Zelda" && gameNest[game].values[category].key == "Swordless"){
+        console.log(gameNest[game].values[category].values[run]["world_record"],gameNest[game].values[category].values[run]["date"],gameNest[game].values[category].values[run]["time"]);
       }
       // console.log(categoryGameRecord,runTime,gameNest[game].values[category].values[run]["world_record"],gameNest[game].values[category].values[run]["date"]);
       runArray.push(gameNest[game].values[category].values[run])

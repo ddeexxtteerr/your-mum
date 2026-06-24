@@ -17,7 +17,7 @@
     "superagent": "^3.8.3"
   },
   "devDependencies": {
-    "@babel/core": "7.1.2",
+    "@babel/core": "7.29.6",
     "@babel/plugin-proposal-object-rest-spread": "7.0.0",
     "@babel/preset-env": "7.1.0",
     "@babel/register": "7.0.0",
